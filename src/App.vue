@@ -1,15 +1,19 @@
 <template>
-  <div>hi</div>
-  <Xin msg="Hello Vue 3.0 + Vite" />
+  <div>导航栏 | 
+    <router-link to="/">xin</router-link>|
+    <router-link to="/xxx">xin2</router-link>
+
+
+  </div>
+  <hr />
+  <router-view>
+
+  </router-view>
 </template>
 
 <script>
-import Xin from './components/xin.vue'
 
 export default {
   name: 'App',
-  components: {
-    Xin
-  }
 }
 </script>
