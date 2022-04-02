@@ -1,19 +1,17 @@
 <template>
-  <div>导航栏 | 
-    <router-link to="/">xin</router-link>|
-    <router-link to="/xxx">xin2</router-link>
-
-
-  </div>
-  <hr />
   <router-view>
 
   </router-view>
 </template>
 
 <script>
+import {ref, provide } from 'vue'
 
 export default {
   name: 'App',
+  setup() {
+    const asideVisible = ref(false)
+    provide('aside',asideVisible)
+  }
 }
 </script>
