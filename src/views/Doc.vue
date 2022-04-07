@@ -8,15 +8,15 @@
                     <li>
                         <router-link to="/doc/switch">Switch组件 </router-link>
                     </li>
-                     <!-- <li>
-                        <router-link>Button 组件 </router-link>
+                     <li>
+                        <router-link to="/doc/button">Button 组件 </router-link>
                     </li>
                      <li>
-                        <router-link>Dialog组件 </router-link>
+                        <router-link to="/doc/dialog">Dialog组件 </router-link>
                     </li>
                      <li>
-                        <router-link>Tabs组件 </router-link>
-                    </li> -->
+                        <router-link to="/doc/tabs">Tabs组件 </router-link>
+                    </li>
                 </ol>
             </aside>
             <main>
